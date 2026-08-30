@@ -6,9 +6,9 @@ filename, range) without breaking it, and write short scripts of your own for pr
 and fun.
 
 **Current milestone:** 1 — Variables, numbers, strings (assessed unaided 2026-08-26,
-did not pass gate — stay one more session. Weak spot: predicting outcome after a
-variable is reassigned/overwritten. Strong spot: reading tracebacks and self-fixing
-syntax errors once forced to paste the actual error text.)
+did not pass gate — reassignment/overwrite prediction was the weak spot. Drilled
+2026-08-30, went 4/4 unaided incl. variable-to-variable copy case — ready for a full
+unaided `assess` next session to confirm gate before advancing to milestone 2.)
 
 **Milestone history:** (log date reached + assess result as milestones are passed)
 
