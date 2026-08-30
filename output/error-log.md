@@ -12,8 +12,8 @@ items are what `review` pulls from. Move an item to Fixed once it stops recurrin
 | 2026-08-25 | 1 | Didn't know why `a/b` prints `3.0` not `3` | Told directly (not self-discovered): `/` always returns float in Python; `//` gives floor/int division | 1 |
 | 2026-08-26 | 1 | Assigned string without quotes (`name=Mohamad`) → NameError | Self-explained after error: strings need `""` | 1 |
 | 2026-08-26 | 1 | Used hyphens in a variable name (`apple-per-bag`) → SyntaxError | Pointed at line; realized `-` is parsed as subtraction | 1 |
-| 2026-08-26 | 1 | Predicted reassigned var (`x=.../` then `x=...//`) would show the `/` result (3.0); missed that 2nd assignment overwrites 1st | Self-caught after running, but prediction itself was wrong — reassignment/overwrite not yet internalized | 1 |
-
 ## Fixed
 
 (move rows here once solid)
+
+| 2026-08-26 | 1 | Predicted reassigned var (`x=.../` then `x=...//`) would show the `/` result (3.0); missed that 2nd assignment overwrites 1st | Self-caught after running, but prediction itself was wrong — reassignment/overwrite not yet internalized | 1 — fixed 2026-08-30, 4/4 unaided incl. variable-to-variable copy case |
